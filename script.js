@@ -2,8 +2,7 @@ const API_KEY = "ENTER YOUR API KEY HERE";
 
 const API_URL = `https://api.themoviedb.org/3/discover/movie?sort_by=popularity.desc&api_key=${API_KEY}&page=1`;
 
-const SEARCH_URL =
-  'https://api.themoviedb.org/3/search/movie?api_key=cd87087bed813f2fb1ac97040d5f06ce&query="';
+const SEARCH_URL = `https://api.themoviedb.org/3/search/movie?api_key=${API_KEY}&query="`;
 
 const IMG_PATH = "https://image.tmdb.org/t/p/w1280";
 
